@@ -28,7 +28,7 @@ spec:
       containers:
       - name: $project_name
         #发布时拉取最新版本的镜像
-        image: dongzhiyuan9527/jenkins-demo:<BUILD_TAG>
+        image: 172.16.10.200/test:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
 
 ---
